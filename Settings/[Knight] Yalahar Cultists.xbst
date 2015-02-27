@@ -1,0 +1,493 @@
+<panel name="Self Healer">
+	<control name="SpellList">
+		<item spell="Exura Ico" mana="20" vcomp="0" vsign="1" vrandom="1" vvalue="70" enabled="1"/>
+	</control>
+	<control name="ItemList">
+		<item id="239" vcomp="0" vsign="1" vrandom="1" vvalue="20" enabled="1"/>
+		<item id="268" vcomp="0" vsign="2" vrandom="0" vvalue="200" enabled="1"/>
+	</control>
+</panel>
+<panel name="Support">
+	<control name="HiHealSpell" value="Exura Ico"/>
+	<control name="HiHealHealth" value="70"/>
+	<control name="HiHealRange" value="5"/>
+	<control name="HiHealMana" value="20"/>
+	<control name="HiHealEnable" value="0"/>
+	<control name="LoHealSpell" value="Exura Gran"/>
+	<control name="LoHealHealth" value="55"/>
+	<control name="LoHealPerc" value="5"/>
+	<control name="LoHealMana" value="70"/>
+	<control name="LoHealEnable" value="0"/>
+	<control name="PotHealID" value="239"/>
+	<control name="PotHealHealth" value="20"/>
+	<control name="PotHealRange" value="5"/>
+	<control name="PotHealEnable" value="0"/>
+	<control name="ManaRestoreID" value="268"/>
+	<control name="ManaRestoreMana" value="200"/>
+	<control name="ManaRestoreEnable" value="0"/>
+</panel>
+<panel name="Frag Helper">
+	<control name="HoldTarg" value="0"/>
+	<control name="ComboEnable" value="0"/>
+</panel>
+<panel name="Tools">
+	<control name="LightEnable" value="1"/>
+	<control name="XRayEnable" value="0"/>
+	<control name="ShowLookIDs" value="1"/>
+	<control name="ShowManaBar" value="1"/>
+	<control name="ShowBPInfo" value="1"/>
+	<control name="EnableAntiIdle" value="0"/>
+	<control name="EnableEatFood" value="1"/>
+	<control name="EnableAdvancedInfo" value="1"/>
+</panel>
+<panel name="Combo Options">
+	<control name="ComboSayLeader" value=""/>
+	<control name="ComboSayPhrase" value=""/>
+	<control name="ComboSayEnable" value="0"/>
+	<control name="ComboShotLeader" value=""/>
+	<control name="ComboShotType" value="0"/>
+	<control name="ComboShotEnable" value="0"/>
+	<control name="ComboExivaLeader" value=""/>
+	<control name="ComboExivaEnable" value="0"/>
+	<control name="ComboParaWatch" value="0"/>
+	<control name="ComboParaEnable" value="0"/>
+	<control name="ComboPartyWatch" value="0"/>
+	<control name="ComboPartyEnable" value="0"/>
+	<control name="ComboAttackSpell" value="Exevo Gran Mas Frigo"/>
+	<control name="ComboAttackSpellEnable" value="0"/>
+	<control name="ComboAttackRuneID" value="3155"/>
+	<control name="ComboAttackRuneEnable" value="0"/>
+	<control name="ComboFocusType" value="0"/>
+</panel>
+<panel name="HUD">
+	<control name="HUDItemList">
+		<item textColor="9" x="5" y="5" pos="4" checked="1"/>
+		<item textColor="8" x="5" y="5" pos="6" checked="0"/>
+		<item textColor="7" x="5" y="5" pos="0" checked="1"/>
+		<item textColor="6" x="5" y="5" pos="8" checked="0"/>
+		<item textColor="4" x="5" y="5" pos="10" checked="1"/>
+		<item textColor="13" x="5" y="5" pos="0" checked="0"/>
+		<item textColor="13" x="5" y="5" pos="2" checked="1"/>
+		<item textColor="0" x="0" y="0" pos="0" checked="0"/>
+	</control>
+	<control name="HPPercOnClick" value="0"/>
+	<control name="MPPercOnClick" value="0"/>
+	<control name="MPPercClickEnable" value="0"/>
+	<control name="MPPercClickEnable" value="0"/>
+</panel>
+<panel name="Recent Loot">
+	<control name="LootMonsterList">
+	</control>
+	<control name="DisplaySelectLoot" value="0"/>
+	<control name="HideNothingLoot" value="0"/>
+</panel>
+<panel name="Spell Timers">
+	<control name="ShowHasteTimer" value="1"/>
+	<control name="ShowManaTimer" value="1"/>
+	<control name="ShowInvisibleTimer" value="1"/>
+	<control name="ShowBuffTimers" value="1"/>
+</panel>
+<panel name="Kill Counters">
+	<control name="KillCounterBox">
+	</control>
+	<control name="DisplaySelectCounters" value="0"/>
+	<control name="DisplayCountRatios" value="0"/>
+</panel>
+<panel name="Battle Information">
+	<control name="ShowTakenDamage" value="1"/>
+	<control name="ShowDealtDamage" value="1"/>
+	<control name="ShowTarget" value="1"/>
+	<control name="ShowFollow" value="1"/>
+	<control name="ShowExiva" value="1"/>
+</panel>
+<panel name="Experience Information">
+	<control name="ShowHourlyExp" value="1"/>
+	<control name="ShowExpTogo" value="1"/>
+	<control name="ShowTimeLeft" value="1"/>
+</panel>
+<panel name="Condition Manager">
+	<control name="PoisonCureLimit" value="6"/>
+	<control name="PoisonCureMana" value="20"/>
+	<control name="PoisonCureEnable" value="0"/>
+	<control name="DeathCureLimit" value="10"/>
+	<control name="DeathCureMana" value="40"/>
+	<control name="DeathCureEnable" value="0"/>
+	<control name="PhysicalCureLimit" value="5"/>
+	<control name="PhysicalCureMana" value="30"/>
+	<control name="PhysicalCureEnable" value="0"/>
+	<control name="FireCureLimit" value="20"/>
+	<control name="FireCureMana" value="30"/>
+	<control name="FireCureEnable" value="0"/>
+	<control name="EnergyCureLimit" value="15"/>
+	<control name="EnergyCureMana" value="30"/>
+	<control name="EnergyCureEnable" value="0"/>
+	<control name="ParaCureEnable" value="0"/>
+	<control name="ParaCureMana" value="50"/>
+	<control name="ParaCureSpell" value="Utani Hur"/>
+	<control name="HasteCastMana" value="50"/>
+	<control name="HasteCastSpell" value="Utani Hur"/>
+	<control name="HasteCastEnable" value="0"/>
+	<control name="InvisibleCastMana" value="50"/>
+	<control name="InvisibleCastEnable" value="0"/>
+	<control name="ShieldCastMana" value="50"/>
+	<control name="ShieldCastEnable" value="0"/>
+	<control name="RecoveryCastEnable" value="0"/>
+	<control name="RecoveryCastType" value="0"/>
+	<control name="RecoveryCastMana" value="50"/>
+	<control name="RecoveryCheckPzEnable" value="1"/>
+</panel>
+<panel name="Equipment Manager">
+	<control name="AmmoRefillID" value="3450"/>
+	<control name="AmmoRefillEnable" value="0"/>
+	<control name="WeaponRefillID" value="7368"/>
+	<control name="WeaponRefillEnable" value="0"/>
+</panel>
+<panel name="Targeting">
+	<control name="TargetingList">
+		<item type="Enlightened Of The Cult" spl="exori hur" rne="3158" chs="0" atk="1" max="100" min="0" prio="4" prox="7" count="1"/>
+		<item type="Adept Of The Cult" spl="exori ico" rne="3158" chs="0" atk="1" max="100" min="0" prio="3" prox="7" count="1"/>
+		<item type="Acolyte Of The Cult" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+	</control>
+</panel>
+<panel name="Walker">
+	<control name="WaypointList">
+		<item text="InitialChecker" tag="255"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="ToStart:" tag="255"/>
+		<item text="Stand (32824, 31248, 7)" tag="1"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="BuySupplies:" tag="255"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="Banker:" tag="255"/>
+		<item text="Node (32830, 31253, 7)" tag="0"/>
+		<item text="Node (32801, 31249, 7)" tag="0"/>
+		<item text="Stand (32797, 31246, 7)" tag="1"/>
+		<item text="Node (32782, 31249, 6)" tag="0"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="Depositer:" tag="255"/>
+		<item text="Node (32786, 31249, 6)" tag="0"/>
+		<item text="Stand (32786, 31248, 6)" tag="1"/>
+		<item text="Node (32800, 31245, 7)" tag="0"/>
+		<item text="Node (32800, 31234, 7)" tag="0"/>
+		<item text="Node (32791, 31233, 7)" tag="0"/>
+		<item text="Stand (32790, 31238, 7)" tag="1"/>
+		<item text="Stand (32790, 31239, 7)" tag="1"/>
+		<item text="Stand (32789, 31239, 6)" tag="1"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="BuyP:" tag="255"/>
+		<item text="Stand (32789, 31239, 5)" tag="1"/>
+		<item text="Stand (32790, 31239, 6)" tag="1"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="CheckSofts:" tag="255"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="ToVenore:" tag="255"/>
+		<item text="Stand (32800, 31255, 7)" tag="1"/>
+		<item text="Stand (32801, 31255, 7)" tag="1"/>
+		<item text="Node (32811, 31261, 6)" tag="0"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="BoatCheck:" tag="255"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="Path1:" tag="255"/>
+		<item text="Self.OpenDoor(32817, 31275, 6)" tag="254"/>
+		<item text="Ladder (32815, 31277, 6)" tag="2"/>
+		<item text="Stand (32817, 31278, 5)" tag="1"/>
+		<item text="wait(723)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("hi")]]></item>
+		<item text="wait(503)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("venore")]]></item>
+		<item text="wait(638)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("yes")]]></item>
+		<item text="wait(1000)" tag="254"/>
+		<item text="Node (32955, 32039, 6)" tag="0"/>
+		<item text="Node (32954, 32073, 6)" tag="0"/>
+		<item text="Stand (32954, 32108, 6)" tag="1"/>
+		<item text="wait(500)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("hi")]]></item>
+		<item text="wait(700)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("Soft Boots")]]></item>
+		<item text="wait(520)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("yes")]]></item>
+		<item text="wait(891)" tag="254"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="ToYalahar:" tag="255"/>
+		<item text="Node (32954, 32074, 6)" tag="0"/>
+		<item text="Node (32955, 32038, 6)" tag="0"/>
+		<item text="Stand (32955, 32023, 6)" tag="1"/>
+		<item text="wait(503)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("hi")]]></item>
+		<item text="wait(758)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("yalahar")]]></item>
+		<item text="!cdataread" tag="254"><![CDATA[wait("673")]]></item>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("yes")]]></item>
+		<item text="wait(846)" tag="254"/>
+		<item text="Node (32811, 31270, 6)" tag="0"/>
+		<item text="Path1End:" tag="255"/>
+		<item text="!cdataread" tag="254"><![CDATA[gotoLabel("SoftsDown")]]></item>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="Path2:" tag="255"/>
+		<item text="Self.OpenDoor(32804, 31273, 6)" tag="254"/>
+		<item text="Stand (32804, 31276, 6)" tag="1"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("hi")]]></item>
+		<item text="wait(845)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("liberty bay")]]></item>
+		<item text="wait(572)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("yes")]]></item>
+		<item text="wait(967)" tag="254"/>
+		<item text="Node (32306, 32896, 6)" tag="0"/>
+		<item text="Node (32302, 32873, 6)" tag="0"/>
+		<item text="Node (32277, 32874, 6)" tag="0"/>
+		<item text="Stand (32285, 32891, 6)" tag="1"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("hi")]]></item>
+		<item text="wait(541)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("venore")]]></item>
+		<item text="wait(791)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("yes")]]></item>
+		<item text="wait(1032)" tag="254"/>
+		<item text="Node (32955, 32039, 6)" tag="0"/>
+		<item text="Node (32954, 32073, 6)" tag="0"/>
+		<item text="Stand (32954, 32108, 6)" tag="1"/>
+		<item text="wait(500)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("hi")]]></item>
+		<item text="wait(700)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("Soft Boots")]]></item>
+		<item text="wait(520)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("yes")]]></item>
+		<item text="wait(891)" tag="254"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="ToYalahar:" tag="255"/>
+		<item text="Node (32954, 32074, 6)" tag="0"/>
+		<item text="Node (32955, 32038, 6)" tag="0"/>
+		<item text="Stand (32955, 32023, 6)" tag="1"/>
+		<item text="wait(503)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("hi")]]></item>
+		<item text="wait(707)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("liberty bay")]]></item>
+		<item text="wait(865)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("yes")]]></item>
+		<item text="wait(1095)" tag="254"/>
+		<item text="Node (32277, 32893, 6)" tag="0"/>
+		<item text="Node (32277, 32874, 6)" tag="0"/>
+		<item text="Node (32305, 32874, 6)" tag="0"/>
+		<item text="Stand (32298, 32897, 6)" tag="1"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("hi")]]></item>
+		<item text="wait(646)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("yalahar")]]></item>
+		<item text="wait(741)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.SayToNpc("yes")]]></item>
+		<item text="wait(1057)" tag="254"/>
+		<item text="Node (32811, 31270, 6)" tag="0"/>
+		<item text="Path2End:" tag="255"/>
+		<item text="!cdataread" tag="254"><![CDATA[gotoLabel("SoftsDown")]]></item>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="SoftsDown:" tag="255"/>
+		<item text="Stand (32803, 31256, 6)" tag="1"/>
+		<item text="Stand (32802, 31256, 6)" tag="1"/>
+		<item text="!cdataread" tag="254"><![CDATA[gotoLabel("ToHunt")]]></item>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="ToHunt:" tag="255"/>
+		<item text="Node (32791, 31233, 7)" tag="0"/>
+		<item text="Node (32817, 31228, 7)" tag="0"/>
+		<item text="Node (32827, 31207, 7)" tag="0"/>
+		<item text="Node (32835, 31187, 7)" tag="0"/>
+		<item text="Node (32840, 31163, 7)" tag="0"/>
+		<item text="Node (32836, 31159, 7)" tag="0"/>
+		<item text="Stand (32834, 31155, 7)" tag="1"/>
+		<item text="Stand (32834, 31153, 6)" tag="1"/>
+		<item text="Node (32834, 31148, 5)" tag="0"/>
+		<item text="Stand (32834, 31145, 5)" tag="1"/>
+		<item text="Stand (32834, 31143, 6)" tag="1"/>
+		<item text="Node (32836, 31135, 7)" tag="0"/>
+		<item text="Node (32846, 31117, 7)" tag="0"/>
+		<item text="Node (32858, 31103, 7)" tag="0"/>
+		<item text="Stand (32857, 31103, 7)" tag="1"/>
+		<item text="Stand (32855, 31103, 6)" tag="1"/>
+		<item text="Node (32844, 31101, 7)" tag="0"/>
+		<item text="Node (32825, 31097, 7)" tag="0"/>
+		<item text="Stand (32825, 31094, 7)" tag="1"/>
+		<item text="Self.OpenDoor(32825, 31093, 7)" tag="254"/>
+		<item text="Node (32829, 31085, 7)" tag="0"/>
+		<item text="Node (32823, 31082, 7)" tag="0"/>
+		<item text="Stand (32824, 31084, 7)" tag="1"/>
+		<item text="Stand (32820, 31085, 8)" tag="1"/>
+		<item text="Self.OpenDoor(32819, 31084, 8)" tag="254"/>
+		<item text="Node (32813, 31085, 8)" tag="0"/>
+		<item text="Node (32803, 31084, 8)" tag="0"/>
+		<item text="Stand (32803, 31085, 8)" tag="1"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="KeepHunting:" tag="255"/>
+		<item text="Node (32802, 31082, 9)" tag="0"/>
+		<item text="Node (32802, 31094, 9)" tag="0"/>
+		<item text="Node (32794, 31096, 9)" tag="0"/>
+		<item text="Node (32787, 31090, 9)" tag="0"/>
+		<item text="Node (32804, 31095, 9)" tag="0"/>
+		<item text="Node (32815, 31092, 9)" tag="0"/>
+		<item text="Node (32794, 31105, 9)" tag="0"/>
+		<item text="Node (32790, 31108, 9)" tag="0"/>
+		<item text="Node (32816, 31108, 9)" tag="0"/>
+		<item text="Node (32801, 31115, 9)" tag="0"/>
+		<item text="Stand (32802, 31115, 9)" tag="1"/>
+		<item text="Node (32802, 31100, 10)" tag="0"/>
+		<item text="Node (32793, 31096, 10)" tag="0"/>
+		<item text="Node (32793, 31087, 10)" tag="0"/>
+		<item text="Node (32784, 31097, 10)" tag="0"/>
+		<item text="Node (32776, 31108, 10)" tag="0"/>
+		<item text="Node (32790, 31109, 10)" tag="0"/>
+		<item text="Node (32782, 31118, 10)" tag="0"/>
+		<item text="Node (32786, 31127, 10)" tag="0"/>
+		<item text="Node (32801, 31127, 10)" tag="0"/>
+		<item text="Node (32784, 31125, 10)" tag="0"/>
+		<item text="Node (32782, 31111, 10)" tag="0"/>
+		<item text="Node (32785, 31095, 10)" tag="0"/>
+		<item text="Node (32799, 31097, 10)" tag="0"/>
+		<item text="Node (32801, 31115, 10)" tag="0"/>
+		<item text="Stand (32802, 31115, 10)" tag="1"/>
+		<item text="Node (32803, 31100, 9)" tag="0"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="Checker:" tag="255"/>
+		<item text=":::::::::::::::" tag="255"/>
+		<item text="Leave:" tag="255"/>
+		<item text="Stand (32803, 31085, 9)" tag="1"/>
+		<item text="Stand (32818, 31084, 8)" tag="1"/>
+		<item text="Self.OpenDoor(32819, 31084, 8)" tag="254"/>
+		<item text="Node (32822, 31084, 8)" tag="0"/>
+		<item text="Stand (32824, 31084, 8)" tag="1"/>
+		<item text="Node (32829, 31083, 7)" tag="0"/>
+		<item text="Stand (32825, 31092, 7)" tag="1"/>
+		<item text="Self.OpenDoor(32825, 31093, 7)" tag="254"/>
+		<item text="Node (32827, 31096, 7)" tag="0"/>
+		<item text="Node (32837, 31098, 7)" tag="0"/>
+		<item text="Node (32853, 31101, 7)" tag="0"/>
+		<item text="Stand (32854, 31101, 7)" tag="1"/>
+		<item text="Stand (32857, 31101, 6)" tag="1"/>
+		<item text="Node (32856, 31106, 7)" tag="0"/>
+		<item text="Node (32839, 31123, 7)" tag="0"/>
+		<item text="Node (32833, 31142, 7)" tag="0"/>
+		<item text="Stand (32833, 31143, 7)" tag="1"/>
+		<item text="Stand (32833, 31145, 6)" tag="1"/>
+		<item text="Node (32833, 31150, 5)" tag="0"/>
+		<item text="Stand (32833, 31153, 5)" tag="1"/>
+		<item text="Stand (32833, 31155, 6)" tag="1"/>
+		<item text="Node (32838, 31160, 7)" tag="0"/>
+		<item text="Node (32857, 31179, 7)" tag="0"/>
+		<item text="Node (32847, 31240, 7)" tag="0"/>
+		<item text="Node (32830, 31249, 7)" tag="0"/>
+	</control>
+</panel>
+<panel name="Looter">
+	<control name="LootList" first="0">
+		<item ID="6087" action="2"/>
+		<item ID="6088" action="2"/>
+		<item ID="6089" action="2"/>
+		<item ID="6090" action="2"/>
+		<item ID="5810" action="2"/>
+		<item ID="3032" action="2"/>
+		<item ID="11492" action="2"/>
+		<item ID="9639" action="2"/>
+		<item ID="9638" action="2"/>
+		<item ID="3030" action="2"/>
+		<item ID="3031" action="1"/>
+		<item ID="11652" action="2"/>
+		<item ID="3065" action="2"/>
+		<item ID="12308" action="2"/>
+		<item ID="7426" action="2"/>
+		<item ID="7424" action="2"/>
+		<item ID="3566" action="2"/>
+		<item ID="3067" action="2"/>
+		<item ID="3055" action="2"/>
+		<item ID="2995" action="2"/>
+		<item ID="5668" action="2"/>
+		<item ID="5801" action="2"/>
+		<item ID="3071" action="2"/>
+		<item ID="3567" action="2"/>
+		<item ID="3324" action="2"/>
+		<item ID="3029" action="2"/>
+	</control>
+</panel>
+<panel name="Pathfinder">
+	<control name="walkOnFireEnable" value="0"/>
+	<control name="walkOnFurnitureEnable" value="1"/>
+	<control name="lastWPEvadeEnable" value="0"/>
+	<control name="showDiagnoticEnable" value="0"/>
+	<control name="walkWithMapclicks" value="0"/>
+</panel>
+<panel name="Mount">
+</panel>
+<panel name="Special Areas">
+	<control name="AreaList">
+	</control>
+</panel>
+<panel name="Alarms">
+	<control name="disAlarm" value="1"/>
+	<control name="damAlarm" value="0"/>
+	<control name="lhpAlarm" value="0"/>
+	<control name="lhpAlarmPercent" value="50"/>
+	<control name="pmAlarm" value="1"/>
+	<control name="creatureAlarm" value="0"/>
+	<control name="attackAlarm" value="0"/>
+	<control name="playerAlarm" value="0"/>
+	<control name="playerAlarmLog" value="0"/>
+	<control name="stuckAlarm" value="1"/>
+	<control name="alarmPartyIgnore" value="0"/>
+</panel>
+<panel name="Scripter">
+	<control name="FoundScriptList">
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+		<item/>
+	</control>
+	<control name="RunningScriptList">
+		<item/>
+	</control>
+</panel>
+<panel name="Advertising">
+	<control name="watchSellingWords" value="item, item2"/>
+	<control name="watchSellingEnable" value="0"/>
+	<control name="watchBuyingWords" value="item, item2"/>
+	<control name="watchBuyingEnable" value="0"/>
+	<control name="blockLinksEnable" value="0"/>
+	<control name="reduceSpamEnable" value="0"/>
+</panel>

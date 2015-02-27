@@ -1,0 +1,335 @@
+<panel name="Spell Shooter">
+	<control name="shooterList">
+	</control>
+</panel>
+<panel name="Self Healer">
+	<control name="SpellList">
+		<item spell="Exura Ico" mana="40" vcomp="0" vsign="1" vrandom="1" vvalue="70" enabled="1"/>
+		<item spell="utevo lux" mana="0" vcomp="1" vsign="3" vrandom="0" vvalue="98" enabled="1"/>
+	</control>
+	<control name="ItemList">
+	</control>
+</panel>
+<panel name="Support">
+	<control name="HiHealSpell" value="Exura Ico"/>
+	<control name="HiHealHealth" value="70"/>
+	<control name="HiHealRange" value="5"/>
+	<control name="HiHealMana" value="40"/>
+	<control name="HiHealEnable" value="0"/>
+	<control name="LoHealSpell" value=""/>
+	<control name="LoHealHealth" value="55"/>
+	<control name="LoHealPerc" value="5"/>
+	<control name="LoHealMana" value="70"/>
+	<control name="LoHealEnable" value="0"/>
+	<control name="PotHealID" value="266"/>
+	<control name="PotHealHealth" value="50"/>
+	<control name="PotHealRange" value="5"/>
+	<control name="PotHealEnable" value="0"/>
+	<control name="ManaRestoreID" value="268"/>
+	<control name="ManaRestoreMana" value="50"/>
+	<control name="ManaRestoreEnable" value="0"/>
+</panel>
+<panel name="Frag Helper">
+	<control name="HoldTarg" value="0"/>
+	<control name="ComboEnable" value="0"/>
+</panel>
+<panel name="Tools">
+	<control name="LightEnable" value="1"/>
+	<control name="XRayEnable" value="0"/>
+	<control name="ShowLookIDs" value="1"/>
+	<control name="ShowManaBar" value="0"/>
+	<control name="ShowBPInfo" value="0"/>
+	<control name="EnableAntiIdle" value="0"/>
+	<control name="EnableEatFood" value="1"/>
+	<control name="EnableAdvancedInfo" value="0"/>
+	<control name="EnableReconnect" value="0"/>
+</panel>
+<panel name="Combo Options">
+	<control name="ComboSayLeader" value=""/>
+	<control name="ComboSayPhrase" value=""/>
+	<control name="ComboSayEnable" value="0"/>
+	<control name="ComboShotLeader" value=""/>
+	<control name="ComboShotType" value="0"/>
+	<control name="ComboShotEnable" value="0"/>
+	<control name="ComboExivaLeader" value=""/>
+	<control name="ComboExivaEnable" value="0"/>
+	<control name="ComboParaWatch" value="0"/>
+	<control name="ComboParaEnable" value="0"/>
+	<control name="ComboPartyWatch" value="0"/>
+	<control name="ComboPartyEnable" value="0"/>
+	<control name="ComboAttackSpell" value="Exevo Gran Mas Frigo"/>
+	<control name="ComboAttackSpellEnable" value="0"/>
+	<control name="ComboAttackRuneID" value="3155"/>
+	<control name="ComboAttackRuneEnable" value="0"/>
+	<control name="ComboFocusType" value="0"/>
+</panel>
+<panel name="HUD">
+	<control name="HUDItemList">
+		<item textColor="9" x="5" y="5" pos="4" checked="0"/>
+		<item textColor="8" x="5" y="5" pos="6" checked="0"/>
+		<item textColor="0" x="5" y="29" pos="0" checked="1"/>
+		<item textColor="6" x="5" y="5" pos="8" checked="0"/>
+		<item textColor="0" x="5" y="5" pos="0" checked="1"/>
+		<item textColor="0" x="0" y="0" pos="5" checked="0"/>
+		<item textColor="0" x="5" y="5" pos="2" checked="1"/>
+		<item textColor="0" x="0" y="0" pos="0" checked="0"/>
+	</control>
+	<control name="HPPercOnClick" value="0"/>
+	<control name="MPPercOnClick" value="0"/>
+	<control name="MPPercClickEnable" value="0"/>
+	<control name="MPPercClickEnable" value="0"/>
+</panel>
+<panel name="Recent Loot">
+	<control name="LootMonsterList">
+	</control>
+	<control name="DisplaySelectLoot" value="0"/>
+	<control name="HideNothingLoot" value="0"/>
+</panel>
+<panel name="Spell Timers">
+	<control name="ShowHasteTimer" value="1"/>
+	<control name="ShowManaTimer" value="1"/>
+	<control name="ShowInvisibleTimer" value="1"/>
+	<control name="ShowBuffTimers" value="1"/>
+</panel>
+<panel name="Kill Counters">
+	<control name="KillCounterBox">
+	</control>
+	<control name="DisplaySelectCounters" value="0"/>
+	<control name="DisplayCountRatios" value="0"/>
+</panel>
+<panel name="Battle Information">
+	<control name="ShowTakenDamage" value="1"/>
+	<control name="ShowTakenAvgDamage" value="1"/>
+	<control name="ShowTakenBurstDamage" value="1"/>
+	<control name="ShowDealtDamage" value="1"/>
+	<control name="ShowTarget" value="0"/>
+	<control name="ShowFollow" value="0"/>
+	<control name="ShowExiva" value="0"/>
+</panel>
+<panel name="Experience Information">
+	<control name="ShowHourlyExp" value="1"/>
+	<control name="ShowExpTogo" value="1"/>
+	<control name="ShowTimeLeft" value="1"/>
+</panel>
+<panel name="Condition Manager">
+	<control name="PoisonCureLimit" value="6"/>
+	<control name="PoisonCureMana" value="20"/>
+	<control name="PoisonCureEnable" value="0"/>
+	<control name="DeathCureLimit" value="10"/>
+	<control name="DeathCureMana" value="40"/>
+	<control name="DeathCureEnable" value="0"/>
+	<control name="PhysicalCureLimit" value="5"/>
+	<control name="PhysicalCureMana" value="30"/>
+	<control name="PhysicalCureEnable" value="0"/>
+	<control name="FireCureLimit" value="20"/>
+	<control name="FireCureMana" value="30"/>
+	<control name="FireCureEnable" value="0"/>
+	<control name="EnergyCureLimit" value="15"/>
+	<control name="EnergyCureMana" value="30"/>
+	<control name="EnergyCureEnable" value="0"/>
+	<control name="ParaCureEnable" value="0"/>
+	<control name="ParaCureMana" value="50"/>
+	<control name="ParaCureSpell" value="Utani Hur"/>
+	<control name="HasteCastMana" value="50"/>
+	<control name="HasteCastSpell" value="Utani Hur"/>
+	<control name="HasteCastEnable" value="0"/>
+	<control name="InvisibleCastMana" value="50"/>
+	<control name="InvisibleCastEnable" value="0"/>
+	<control name="ShieldCastMana" value="50"/>
+	<control name="ShieldCastEnable" value="0"/>
+	<control name="RecoveryCastEnable" value="0"/>
+	<control name="RecoveryCastType" value="0"/>
+	<control name="RecoveryCastMana" value="75"/>
+	<control name="RecoveryCheckPzEnable" value="1"/>
+</panel>
+<panel name="Equipment Manager">
+	<control name="AmmoRefillID" value="3450"/>
+	<control name="AmmoRefillEnable" value="0"/>
+	<control name="WeaponRefillID" value="7368"/>
+	<control name="WeaponRefillEnable" value="0"/>
+</panel>
+<panel name="Targeting">
+	<control name="TargetingList">
+		<item type="Troll" chs="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Cave Rat" chs="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Spider" chs="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Poison Spider" chs="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Snake" chs="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Bat" chs="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Bug" chs="0" max="100" min="0" prio="2" prox="7" count="1"/>
+	</control>
+</panel>
+<panel name="Walker">
+	<control name="WaypointList">
+		<item text="Thais North Trolls:" tag="255"/>
+		<item text="Version 1.5:" tag="255"/>
+		<item text="by Infernal Bolt:" tag="255"/>
+		<item text="start:" tag="255"/>
+		<item text="if Self.Position().z == 7 then Walker.Goto('atBank') end" tag="254"/>
+		<item text="Node (32337, 32168, 8)" tag="0"/>
+		<item text="Node (32344, 32150, 8)" tag="0"/>
+		<item text="Node (32352, 32151, 8)" tag="0"/>
+		<item text="Node (32353, 32142, 8)" tag="0"/>
+		<item text="Node (32347, 32139, 8)" tag="0"/>
+		<item text="Node (32345, 32132, 8)" tag="0"/>
+		<item text="Ladder (32346, 32137, 9)" tag="2"/>
+		<item text="Node (32347, 32127, 8)" tag="0"/>
+		<item text="Node (32353, 32123, 8)" tag="0"/>
+		<item text="Stand (32356, 32122, 8)" tag="1"/>
+		<item text="Stand (32343, 32122, 9)" tag="1"/>
+		<item text="Rope (32339, 32122, 10)" tag="3"/>
+		<item text="Node (32333, 32123, 9)" tag="0"/>
+		<item text="Node (32328, 32127, 9)" tag="0"/>
+		<item text="Node (32325, 32139, 9)" tag="0"/>
+		<item text="Node (32325, 32150, 9)" tag="0"/>
+		<item text="Node (32325, 32136, 9)" tag="0"/>
+		<item text="Node (32331, 32126, 9)" tag="0"/>
+		<item text="Stand (32339, 32122, 9)" tag="1"/>
+		<item text="Rope (32343, 32122, 10)" tag="3"/>
+		<item text="Ladder (32361, 32122, 9)" tag="2"/>
+		<item text="Stand (32360, 32123, 8)" tag="1"/>
+		<item text="Stand (32360, 32122, 8)" tag="1"/>
+		<item text="Node (32358, 32112, 8)" tag="0"/>
+		<item text="Node (32361, 32105, 8)" tag="0"/>
+		<item text="Node (32370, 32105, 8)" tag="0"/>
+		<item text="Node (32376, 32102, 8)" tag="0"/>
+		<item text="Node (32376, 32094, 8)" tag="0"/>
+		<item text="Node (32364, 32092, 8)" tag="0"/>
+		<item text="Node (32357, 32100, 8)" tag="0"/>
+		<item text="Node (32351, 32106, 8)" tag="0"/>
+		<item text="Node (32348, 32113, 8)" tag="0"/>
+		<item text="Node (32342, 32122, 8)" tag="0"/>
+		<item text="Node (32326, 32124, 8)" tag="0"/>
+		<item text="Node (32313, 32131, 8)" tag="0"/>
+		<item text="Node (32303, 32129, 8)" tag="0"/>
+		<item text="Node (32290, 32127, 8)" tag="0"/>
+		<item text="Node (32284, 32130, 8)" tag="0"/>
+		<item text="Node (32284, 32135, 8)" tag="0"/>
+		<item text="Node (32299, 32137, 8)" tag="0"/>
+		<item text="Node (32316, 32136, 8)" tag="0"/>
+		<item text="Node (32329, 32141, 8)" tag="0"/>
+		<item text="Node (32324, 32150, 8)" tag="0"/>
+		<item text="Node (32329, 32141, 8)" tag="0"/>
+		<item text="Node (32336, 32138, 8)" tag="0"/>
+		<item text="Node (32339, 32154, 8)" tag="0"/>
+		<item text="Node (32337, 32164, 8)" tag="0"/>
+		<item text="!cdataread" tag="254"><![CDATA[if (Self.ItemCount(3031) < 800) then gotoLabel('start') end]]></item>
+		<item text="Rope (32335, 32174, 8)" tag="3"/>
+		<item text="Node (32344, 32173, 7)" tag="0"/>
+		<item text="Node (32352, 32171, 7)" tag="0"/>
+		<item text="Node (32364, 32173, 7)" tag="0"/>
+		<item text="Node (32369, 32191, 7)" tag="0"/>
+		<item text="Node (32367, 32209, 7)" tag="0"/>
+		<item text="Node (32349, 32216, 7)" tag="0"/>
+		<item text="Node (32345, 32223, 7)" tag="0"/>
+		<item text="atBank:" tag="255"/>
+		<item text="Stand (32344, 32229, 7)" tag="1"/>
+		<item text="Self.SayToNpc({'hi',  'deposit all', 'yes', 'balance'}, 65)" tag="254"/>
+		<item text="Stand (32347, 32231, 7)" tag="1"/>
+		<item text="!cdataread" tag="254"><![CDATA[Walker.Goto("dp"..math.random(1,10)) wait(2000)]]></item>
+		<item text="dp1:" tag="255"/>
+		<item text="Stand (32341, 32223, 8)" tag="1"/>
+		<item text="Self.Step('north') wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Walker.ConditionalGoto(Self.DistanceFromPosition(32341, 32222, 8) ~= 0,"dp4","deposit")]]></item>
+		<item text="dp2:" tag="255"/>
+		<item text="Stand (32343, 32223, 8)" tag="1"/>
+		<item text="Self.Step('north') wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Walker.ConditionalGoto(Self.DistanceFromPosition(32343, 32222, 8) ~= 0,"dp2","deposit")]]></item>
+		<item text="dp3:" tag="255"/>
+		<item text="Stand (32345, 32223, 8)" tag="1"/>
+		<item text="Self.Step('north') wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Walker.ConditionalGoto(Self.DistanceFromPosition(32345, 32222, 8) ~= 0,"dp6","deposit")]]></item>
+		<item text="dp4:" tag="255"/>
+		<item text="Stand (32347, 32223, 8)" tag="1"/>
+		<item text="Self.Step('north') wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Walker.ConditionalGoto(Self.DistanceFromPosition(32347, 32222, 8) ~= 0,"dp3","deposit")]]></item>
+		<item text="dp5:" tag="255"/>
+		<item text="Stand (32349, 32223, 8)" tag="1"/>
+		<item text="Self.Step('north') wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Walker.ConditionalGoto(Self.DistanceFromPosition(32349, 32222, 8) ~= 0,"dp5","deposit")]]></item>
+		<item text="dp6:" tag="255"/>
+		<item text="Stand (32351, 32223, 8)" tag="1"/>
+		<item text="Self.Step('north') wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Walker.ConditionalGoto(Self.DistanceFromPosition(32351, 32222, 8) ~= 0,"dp8","deposit")]]></item>
+		<item text="dp7:" tag="255"/>
+		<item text="Stand (32353, 32223, 8)" tag="1"/>
+		<item text="Self.Step('north') wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Walker.ConditionalGoto(Self.DistanceFromPosition(32353, 32222, 8) ~= 0,"dp7","deposit")]]></item>
+		<item text="dp8:" tag="255"/>
+		<item text="Stand (32355, 32223, 8)" tag="1"/>
+		<item text="Self.Step('north') wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Walker.ConditionalGoto(Self.DistanceFromPosition(32355, 32222, 8) ~= 0,"dp9","deposit")]]></item>
+		<item text="dp9:" tag="255"/>
+		<item text="Stand (32357, 32223, 8)" tag="1"/>
+		<item text="Self.Step('north') wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Walker.ConditionalGoto(Self.DistanceFromPosition(32357, 32222, 8) ~= 0,"dp10","deposit")]]></item>
+		<item text="dp10:" tag="255"/>
+		<item text="Stand (32359, 32223, 8)" tag="1"/>
+		<item text="Self.Step('north') wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Walker.ConditionalGoto(Self.DistanceFromPosition(32359, 32222, 8) ~= 0,"dp1","deposit")]]></item>
+		<item text="deposit:" tag="255"/>
+		<item text="!cdataread" tag="254"><![CDATA[print("Found Free Depot")]]></item>
+		<item text="Self.DepositItems(9689, 11485, 8031, 5894)" tag="254"/>
+		<item text="Stand (32347, 32231, 8)" tag="1"/>
+		<item text="Node (32347, 32218, 7)" tag="0"/>
+		<item text="Node (32367, 32207, 7)" tag="0"/>
+		<item text="Node (32366, 32173, 7)" tag="0"/>
+		<item text="Node (32349, 32170, 7)" tag="0"/>
+		<item text="Hole (32335, 32174, 7)" tag="4"/>
+	</control>
+</panel>
+<panel name="Walker Options">
+	<control name="ropeOption" value="0"/>
+	<control name="shovelOption" value="0"/>
+</panel>
+<panel name="Looter">
+	<control name="LootList" first="1" skinner="0" unlisted="0">
+		<item ID="3031" action="1"/>
+		<item ID="9689" action="0"/>
+		<item ID="8031" action="0"/>
+		<item ID="5894" action="0"/>
+		<item ID="11485" action="0"/>
+	</control>
+</panel>
+<panel name="Pathfinder">
+	<control name="walkOnFireEnable" value="0"/>
+	<control name="walkOnFurnitureEnable" value="1"/>
+	<control name="showDiagnoticEnable" value="0"/>
+	<control name="walkWithMapclicks" value="0"/>
+</panel>
+<panel name="Mount">
+</panel>
+<panel name="Special Areas">
+	<control name="AreaList">
+	</control>
+</panel>
+<panel name="Alarms">
+	<control name="disAlarm" value="0"/>
+	<control name="damAlarm" value="0"/>
+	<control name="lhpAlarm" value="1"/>
+	<control name="lhpAlarmPercent" value="50"/>
+	<control name="pmAlarm" value="1"/>
+	<control name="creatureAlarm" value="0"/>
+	<control name="attackAlarm" value="1"/>
+	<control name="attackAlarmYellow" value="1"/>
+	<control name="playerAlarm" value="0"/>
+	<control name="playerAlarmLog" value="0"/>
+	<control name="stuckAlarm" value="1"/>
+	<control name="burstAlarm" value="0"/>
+	<control name="burstAlarmPercent" value="500"/>
+	<control name="averageAlarm" value="0"/>
+	<control name="averageAlarmPercent" value="200"/>
+	<control name="alarmPartyIgnore" value="0"/>
+</panel>
+<panel name="Scripter">
+	<control name="RunningScriptList">
+	</control>
+</panel>
+<panel name="Advertising">
+	<control name="watchSellingWords" value="item, item2"/>
+	<control name="watchSellingEnable" value="0"/>
+	<control name="watchBuyingWords" value="item, item2"/>
+	<control name="watchBuyingEnable" value="0"/>
+	<control name="blockLinksEnable" value="0"/>
+	<control name="reduceSpamEnable" value="0"/>
+</panel>

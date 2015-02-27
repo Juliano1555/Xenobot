@@ -1,0 +1,618 @@
+<panel name="Self Healer">
+	<control name="SpellList">
+	</control>
+	<control name="ItemList">
+	</control>
+</panel>
+<panel name="Support">
+	<control name="HiHealSpell" value="Exura"/>
+	<control name="HiHealHealth" value="90"/>
+	<control name="HiHealRange" value="5"/>
+	<control name="HiHealMana" value="20"/>
+	<control name="HiHealEnable" value="0"/>
+	<control name="LoHealSpell" value="Exura Gran"/>
+	<control name="LoHealHealth" value="55"/>
+	<control name="LoHealPerc" value="5"/>
+	<control name="LoHealMana" value="70"/>
+	<control name="LoHealEnable" value="0"/>
+	<control name="PotHealID" value="266"/>
+	<control name="PotHealHealth" value="50"/>
+	<control name="PotHealRange" value="5"/>
+	<control name="PotHealEnable" value="0"/>
+	<control name="ManaRestoreID" value="268"/>
+	<control name="ManaRestoreMana" value="50"/>
+	<control name="ManaRestoreEnable" value="0"/>
+</panel>
+<panel name="Frag Helper">
+	<control name="HoldTarg" value="0"/>
+	<control name="ComboEnable" value="0"/>
+</panel>
+<panel name="Tools">
+	<control name="LightEnable" value="0"/>
+	<control name="XRayEnable" value="0"/>
+	<control name="ShowLookIDs" value="1"/>
+	<control name="ShowManaBar" value="0"/>
+	<control name="ShowBPInfo" value="0"/>
+	<control name="EnableAntiIdle" value="0"/>
+	<control name="EnableEatFood" value="0"/>
+	<control name="EnableAdvancedInfo" value="0"/>
+</panel>
+<panel name="Combo Options">
+	<control name="ComboSayLeader" value=""/>
+	<control name="ComboSayPhrase" value=""/>
+	<control name="ComboSayEnable" value="0"/>
+	<control name="ComboShotLeader" value=""/>
+	<control name="ComboShotType" value="0"/>
+	<control name="ComboShotEnable" value="0"/>
+	<control name="ComboExivaLeader" value=""/>
+	<control name="ComboExivaEnable" value="0"/>
+	<control name="ComboParaWatch" value="0"/>
+	<control name="ComboParaEnable" value="0"/>
+	<control name="ComboPartyWatch" value="0"/>
+	<control name="ComboPartyEnable" value="0"/>
+	<control name="ComboAttackSpell" value="Exevo Gran Mas Frigo"/>
+	<control name="ComboAttackSpellEnable" value="0"/>
+	<control name="ComboAttackRuneID" value="3155"/>
+	<control name="ComboAttackRuneEnable" value="0"/>
+	<control name="ComboFocusType" value="0"/>
+</panel>
+<panel name="HUD">
+	<control name="HUDItemList">
+		<item textColor="9" x="5" y="5" pos="4" checked="0"/>
+		<item textColor="8" x="5" y="5" pos="6" checked="0"/>
+		<item textColor="0" x="5" y="5" pos="0" checked="0"/>
+		<item textColor="6" x="5" y="5" pos="8" checked="0"/>
+		<item textColor="4" x="5" y="5" pos="10" checked="0"/>
+		<item textColor="0" x="5" y="5" pos="0" checked="1"/>
+		<item textColor="0" x="5" y="5" pos="2" checked="1"/>
+		<item textColor="0" x="0" y="0" pos="0" checked="0"/>
+	</control>
+	<control name="HPPercOnClick" value="0"/>
+	<control name="MPPercOnClick" value="0"/>
+	<control name="MPPercClickEnable" value="0"/>
+	<control name="MPPercClickEnable" value="0"/>
+</panel>
+<panel name="Recent Loot">
+	<control name="LootMonsterList">
+	</control>
+	<control name="DisplaySelectLoot" value="0"/>
+	<control name="HideNothingLoot" value="0"/>
+</panel>
+<panel name="Spell Timers">
+	<control name="ShowHasteTimer" value="1"/>
+	<control name="ShowManaTimer" value="1"/>
+	<control name="ShowInvisibleTimer" value="1"/>
+	<control name="ShowBuffTimers" value="1"/>
+</panel>
+<panel name="Kill Counters">
+	<control name="KillCounterBox">
+	</control>
+	<control name="DisplaySelectCounters" value="0"/>
+	<control name="DisplayCountRatios" value="0"/>
+</panel>
+<panel name="Battle Information">
+	<control name="ShowTakenDamage" value="1"/>
+	<control name="ShowDealtDamage" value="1"/>
+	<control name="ShowTarget" value="1"/>
+	<control name="ShowFollow" value="1"/>
+	<control name="ShowExiva" value="1"/>
+</panel>
+<panel name="Experience Information">
+	<control name="ShowHourlyExp" value="1"/>
+	<control name="ShowExpTogo" value="1"/>
+	<control name="ShowTimeLeft" value="1"/>
+</panel>
+<panel name="Condition Manager">
+	<control name="PoisonCureLimit" value="6"/>
+	<control name="PoisonCureMana" value="20"/>
+	<control name="PoisonCureEnable" value="0"/>
+	<control name="DeathCureLimit" value="10"/>
+	<control name="DeathCureMana" value="40"/>
+	<control name="DeathCureEnable" value="0"/>
+	<control name="PhysicalCureLimit" value="5"/>
+	<control name="PhysicalCureMana" value="30"/>
+	<control name="PhysicalCureEnable" value="0"/>
+	<control name="FireCureLimit" value="20"/>
+	<control name="FireCureMana" value="30"/>
+	<control name="FireCureEnable" value="0"/>
+	<control name="EnergyCureLimit" value="15"/>
+	<control name="EnergyCureMana" value="30"/>
+	<control name="EnergyCureEnable" value="0"/>
+	<control name="ParaCureEnable" value="0"/>
+	<control name="ParaCureMana" value="50"/>
+	<control name="ParaCureSpell" value="Utani Hur"/>
+	<control name="HasteCastMana" value="50"/>
+	<control name="HasteCastSpell" value="Utani Hur"/>
+	<control name="HasteCastEnable" value="0"/>
+	<control name="InvisibleCastMana" value="50"/>
+	<control name="InvisibleCastEnable" value="0"/>
+	<control name="ShieldCastMana" value="50"/>
+	<control name="ShieldCastEnable" value="0"/>
+	<control name="RecoveryCastEnable" value="0"/>
+	<control name="RecoveryCastType" value="0"/>
+	<control name="RecoveryCastMana" value="50"/>
+	<control name="RecoveryCheckPzEnable" value="1"/>
+</panel>
+<panel name="Equipment Manager">
+	<control name="AmmoRefillID" value="3450"/>
+	<control name="AmmoRefillEnable" value="0"/>
+	<control name="WeaponRefillID" value="7368"/>
+	<control name="WeaponRefillEnable" value="0"/>
+</panel>
+<panel name="Targeting">
+	<control name="TargetingList">
+		<item type="Rabbit" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="0" prox="7" count="1"/>
+		<item type="Pig" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="0" prox="7" count="1"/>
+		<item type="Sheep" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="0" prox="7" count="1"/>
+		<item type="Rat" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="1" prox="7" count="1"/>
+		<item type="Cave Rat" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Munster" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="5" prox="7" count="1"/>
+		<item type="Cat" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="10" prox="1" count="1"/>
+		<item type="Wolf" spl="exori vis" rne="3158" chs="4" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Snake" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="3" prox="7" count="1"/>
+		<item type="Spider" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Troll" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="0" prox="1" count="1"/>
+		<item type="Wasp" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Poison Spider" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Bug" spl="exori vis" rne="3158" chs="0" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+	</control>
+</panel>
+<panel name="Walker">
+	<control name="WaypointList">
+		<item text="!cdataread" tag="254"><![CDATA[if Self.DistanceFromPosition(32097,32219,7) < 20 then Walker.Goto('OpenBag') print('Already in Temple,\nSkipping First Tutorial') wait(3000) end]]></item>
+		<item text="Stand (31982, 32276, 7)" tag="1"/>
+		<item text="Stand (31991, 32277, 7)" tag="1"/>
+		<item text="Stand (31999, 32277, 7)" tag="1"/>
+		<item text="Stand (32013, 32276, 7)" tag="1"/>
+		<item text="Stand (32023, 32273, 7)" tag="1"/>
+		<item text="Stand (32024, 32273, 7)" tag="1"/>
+		<item text="Stand (32030, 32272, 6)" tag="1"/>
+		<item text="Stand (32032, 32272, 6)" tag="1"/>
+		<item text="skipTutorial:" tag="255"/>
+		<item text="OpenBag:" tag="255"/>
+		<item text="Node (32098, 32213, 7)" tag="0"/>
+		<item text="getFood:" tag="255"/>
+		<item text="Node (32102, 32213, 7)" tag="0"/>
+		<item text="Node (32107, 32221, 7)" tag="0"/>
+		<item text="Node (32110, 32236, 7)" tag="0"/>
+		<item text="Node (32106, 32243, 7)" tag="0"/>
+		<item text="Node (32109, 32248, 7)" tag="0"/>
+		<item text="Node (32099, 32249, 7)" tag="0"/>
+		<item text="Node (32097, 32244, 7)" tag="0"/>
+		<item text="Node (32094, 32240, 7)" tag="0"/>
+		<item text="Stand (32093, 32235, 6)" tag="1"/>
+		<item text="Node (32101, 32232, 7)" tag="0"/>
+		<item text="Node (32106, 32221, 7)" tag="0"/>
+		<item text="Node (32098, 32213, 7)" tag="0"/>
+		<item text="Node (32088, 32217, 7)" tag="0"/>
+		<item text="Node (32086, 32228, 7)" tag="0"/>
+		<item text="Node (32076, 32239, 7)" tag="0"/>
+		<item text="Node (32067, 32238, 7)" tag="0"/>
+		<item text="Node (32061, 32237, 7)" tag="0"/>
+		<item text="Node (32044, 32243, 7)" tag="0"/>
+		<item text="Node (32039, 32240, 7)" tag="0"/>
+		<item text="Node (32036, 32236, 7)" tag="0"/>
+		<item text="Node (32042, 32231, 7)" tag="0"/>
+		<item text="Node (32053, 32228, 7)" tag="0"/>
+		<item text="Node (32061, 32229, 7)" tag="0"/>
+		<item text="Node (32071, 32231, 7)" tag="0"/>
+		<item text="Stand (32074, 32221, 7)" tag="1"/>
+		<item text="if not Map.IsTileWalkable(32074, 32220, 7) then Self.OpenDoor(32074, 32220, 7) end" tag="254"/>
+		<item text="Stand (32071, 32212, 7)" tag="1"/>
+		<item text="Stand (32074, 32219, 7)" tag="1"/>
+		<item text="if not Map.IsTileWalkable(32074, 32220, 7) then Self.OpenDoor(32074, 32220, 7) end" tag="254"/>
+		<item text="Node (32085, 32229, 7)" tag="0"/>
+		<item text="Node (32088, 32220, 7)" tag="0"/>
+		<item text="Node (32095, 32213, 7)" tag="0"/>
+		<item text="checkCap:" tag="255"/>
+		<item text="goSell:" tag="255"/>
+		<item text="Node (32098, 32211, 7)" tag="0"/>
+		<item text="Node (32095, 32204, 7)" tag="0"/>
+		<item text="Node (32090, 32198, 7)" tag="0"/>
+		<item text="Node (32081, 32193, 7)" tag="0"/>
+		<item text="Node (32070, 32194, 7)" tag="0"/>
+		<item text="Stand (32070, 32203, 7)" tag="1"/>
+		<item text="Stand (32067, 32203, 7)" tag="1"/>
+		<item text="sellFood:" tag="255"/>
+		<item text="Node (32070, 32203, 7)" tag="0"/>
+		<item text="Node (32071, 32196, 7)" tag="0"/>
+		<item text="Node (32087, 32193, 7)" tag="0"/>
+		<item text="Node (32091, 32199, 7)" tag="0"/>
+		<item text="Node (32096, 32204, 7)" tag="0"/>
+		<item text="checkMoney:" tag="255"/>
+		<item text="goBuyEq:" tag="255"/>
+		<item text="Stand (32107, 32203, 7)" tag="1"/>
+		<item text="buyWeapon:" tag="255"/>
+		<item text="equipWeapon:" tag="255"/>
+		<item text="checkWeapon:" tag="255"/>
+		<item text="Stand (32110, 32207, 7)" tag="1"/>
+		<item text="Stand (32107, 32206, 6)" tag="1"/>
+		<item text="buyEq:" tag="255"/>
+		<item text="Stand (32110, 32206, 6)" tag="1"/>
+		<item text="Stand (32110, 32207, 6)" tag="1"/>
+		<item text="Stand (32103, 32204, 7)" tag="1"/>
+		<item text="equipArmor:" tag="255"/>
+		<item text="Node (32095, 32204, 7)" tag="0"/>
+		<item text="Node (32091, 32199, 7)" tag="0"/>
+		<item text="Node (32083, 32193, 7)" tag="0"/>
+		<item text="Node (32074, 32193, 7)" tag="0"/>
+		<item text="Node (32068, 32188, 7)" tag="0"/>
+		<item text="Stand (32061, 32181, 7)" tag="1"/>
+		<item text="buyBp:" tag="255"/>
+		<item text="OpenBp:" tag="255"/>
+		<item text="Node (32068, 32190, 7)" tag="0"/>
+		<item text="checkPACC:" tag="255"/>
+		<item text="-------------------------------:" tag="255"/>
+		<item text="goPACC:" tag="255"/>
+		<item text="Node (32064, 32192, 7)" tag="0"/>
+		<item text="Node (32049, 32193, 7)" tag="0"/>
+		<item text="Node (32032, 32195, 7)" tag="0"/>
+		<item text="Stand (32027, 32197, 7)" tag="1"/>
+		<item text="Stand (32029, 32196, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(32029, 32195, 8) wait(2000)" tag="254"/>
+		<item text="startRatsPACC:" tag="255"/>
+		<item text="Node (32027, 32190, 9)" tag="0"/>
+		<item text="Node (32023, 32188, 9)" tag="0"/>
+		<item text="Node (32021, 32182, 9)" tag="0"/>
+		<item text="Node (32022, 32177, 9)" tag="0"/>
+		<item text="Node (32022, 32174, 9)" tag="0"/>
+		<item text="Node (32017, 32165, 9)" tag="0"/>
+		<item text="Node (32024, 32156, 9)" tag="0"/>
+		<item text="Node (32022, 32145, 9)" tag="0"/>
+		<item text="Node (32008, 32142, 9)" tag="0"/>
+		<item text="Node (32008, 32153, 9)" tag="0"/>
+		<item text="Node (32016, 32158, 9)" tag="0"/>
+		<item text="Node (32013, 32171, 9)" tag="0"/>
+		<item text="Node (32015, 32176, 9)" tag="0"/>
+		<item text="Node (32015, 32183, 9)" tag="0"/>
+		<item text="Node (32010, 32192, 9)" tag="0"/>
+		<item text="Node (32015, 32200, 9)" tag="0"/>
+		<item text="Node (32022, 32199, 9)" tag="0"/>
+		<item text="Ladder (32023, 32195, 10)" tag="2"/>
+		<item text="Ladder (32026, 32212, 10)" tag="2"/>
+		<item text="Ladder (32021, 32180, 10)" tag="2"/>
+		<item text="!cdataread" tag="254"><![CDATA[if Self.Level() < 4 then Walker.Goto('startRatsPACC') end]]></item>
+		<item text="Ladder (32029, 32195, 9)" tag="2"/>
+		<item text="Stand (32027, 32197, 8)" tag="1"/>
+		<item text="Stand (32025, 32203, 7)" tag="1"/>
+		<item text="Stand (32019, 32203, 6)" tag="1"/>
+		<item text="startPACC:" tag="255"/>
+		<item text="Stand (32019, 32203, 6)" tag="1"/>
+		<item text="Node (32004, 32203, 7)" tag="0"/>
+		<item text="Node (31994, 32201, 7)" tag="0"/>
+		<item text="!cdataread" tag="254"><![CDATA[if Self.Health() < 100 or Self.Level() < 5 then Walker.Goto('skip1') end]]></item>
+		<item text="Stand (31988, 32198, 7)" tag="1"/>
+		<item text="Stand (31988, 32198, 6)" tag="1"/>
+		<item text="skip1:" tag="255"/>
+		<item text="Node (31983, 32201, 7)" tag="0"/>
+		<item text="Node (31983, 32217, 7)" tag="0"/>
+		<item text="Node (31981, 32226, 7)" tag="0"/>
+		<item text="Node (31989, 32232, 7)" tag="0"/>
+		<item text="Stand (31993, 32231, 7)" tag="1"/>
+		<item text="Stand (31993, 32231, 6)" tag="1"/>
+		<item text="Node (31998, 32230, 7)" tag="0"/>
+		<item text="Stand (32001, 32225, 7)" tag="1"/>
+		<item text="Stand (32001, 32225, 6)" tag="1"/>
+		<item text="Stand (32001, 32238, 7)" tag="1"/>
+		<item text="Node (31994, 32246, 8)" tag="0"/>
+		<item text="Stand (32001, 32238, 8)" tag="1"/>
+		<item text="Node (32018, 32241, 7)" tag="0"/>
+		<item text="!cdataread" tag="254"><![CDATA[if Self.Health() < 100 or Self.Level() < 7 then Walker.Goto('skip4') end]]></item>
+		<item text="Stand (32022, 32243, 7)" tag="1"/>
+		<item text="Stand (32023, 32246, 6)" tag="1"/>
+		<item text="Stand (32023, 32246, 7)" tag="1"/>
+		<item text="Stand (32022, 32243, 6)" tag="1"/>
+		<item text="skip4:" tag="255"/>
+		<item text="!cdataread" tag="254"><![CDATA[if Self.Health() < 100 or Self.Level() < 5 then Walker.Goto('skip5') end]]></item>
+		<item text="Stand (32027, 32249, 7)" tag="1"/>
+		<item text="Stand (32021, 32248, 8)" tag="1"/>
+		<item text="Stand (32027, 32249, 6)" tag="1"/>
+		<item text="skip5:" tag="255"/>
+		<item text="Node (32019, 32222, 7)" tag="0"/>
+		<item text="Stand (32021, 32248, 8)" tag="1"/>
+		<item text="checkExpPACC:" tag="255"/>
+		<item text="goIodPACC:" tag="255"/>
+		<item text="Stand (32019, 32203, 7)" tag="1"/>
+		<item text="Stand (32025, 32203, 6)" tag="1"/>
+		<item text="Node (32034, 32198, 7)" tag="0"/>
+		<item text="Node (32045, 32194, 7)" tag="0"/>
+		<item text="Node (32058, 32193, 7)" tag="0"/>
+		<item text="Node (32082, 32193, 7)" tag="0"/>
+		<item text="Node (32089, 32193, 7)" tag="0"/>
+		<item text="Node (32094, 32201, 7)" tag="0"/>
+		<item text="gotoLabel('Stairs')" tag="254"/>
+		<item text="-------------------------------:" tag="255"/>
+		<item text="goFACC:" tag="255"/>
+		<item text="Node (32078, 32192, 7)" tag="0"/>
+		<item text="Node (32090, 32193, 7)" tag="0"/>
+		<item text="Node (32091, 32202, 7)" tag="0"/>
+		<item text="Node (32097, 32209, 7)" tag="0"/>
+		<item text="Node (32107, 32215, 7)" tag="0"/>
+		<item text="Node (32110, 32223, 7)" tag="0"/>
+		<item text="Stand (32115, 32223, 7)" tag="1"/>
+		<item text="Stand (32117, 32222, 7)" tag="1"/>
+		<item text="startRatsFACC:" tag="255"/>
+		<item text="Node (32114, 32214, 8)" tag="0"/>
+		<item text="Node (32114, 32207, 8)" tag="0"/>
+		<item text="Node (32109, 32203, 8)" tag="0"/>
+		<item text="Node (32103, 32201, 8)" tag="0"/>
+		<item text="Node (32097, 32199, 8)" tag="0"/>
+		<item text="Node (32090, 32196, 8)" tag="0"/>
+		<item text="Node (32083, 32193, 8)" tag="0"/>
+		<item text="Node (32073, 32193, 8)" tag="0"/>
+		<item text="Node (32070, 32200, 8)" tag="0"/>
+		<item text="Node (32069, 32205, 8)" tag="0"/>
+		<item text="Node (32064, 32208, 8)" tag="0"/>
+		<item text="Node (32063, 32215, 8)" tag="0"/>
+		<item text="Node (32059, 32218, 8)" tag="0"/>
+		<item text="Node (32055, 32220, 8)" tag="0"/>
+		<item text="Node (32049, 32225, 8)" tag="0"/>
+		<item text="Node (32065, 32231, 8)" tag="0"/>
+		<item text="Node (32072, 32229, 8)" tag="0"/>
+		<item text="Node (32082, 32227, 8)" tag="0"/>
+		<item text="Node (32090, 32224, 8)" tag="0"/>
+		<item text="Node (32088, 32221, 8)" tag="0"/>
+		<item text="Node (32094, 32220, 8)" tag="0"/>
+		<item text="Node (32100, 32221, 8)" tag="0"/>
+		<item text="Node (32108, 32217, 8)" tag="0"/>
+		<item text="Node (32111, 32214, 8)" tag="0"/>
+		<item text="!cdataread" tag="254"><![CDATA[if Self.Money() < 50 or Self.Level() < 4 then Walker.Goto('startRatsFACC') end]]></item>
+		<item text="Stand (32117, 32222, 8)" tag="1"/>
+		<item text="Node (32106, 32217, 7)" tag="0"/>
+		<item text="Node (32091, 32198, 7)" tag="0"/>
+		<item text="Node (32089, 32193, 7)" tag="0"/>
+		<item text="Node (32070, 32191, 7)" tag="0"/>
+		<item text="Stand (32061, 32181, 7)" tag="1"/>
+		<item text="Self.SayToNpc({'hi','trade'},75) wait(1000,2000)" tag="254"/>
+		<item text="Self.ShopBuyItemsUpTo('rope', 1) wait(500,1000)" tag="254"/>
+		<item text="Node (32073, 32192, 7)" tag="0"/>
+		<item text="Node (32091, 32191, 7)" tag="0"/>
+		<item text="Stand (32091, 32178, 7)" tag="1"/>
+		<item text="Stand (32091, 32168, 6)" tag="1"/>
+		<item text="Stand (32089, 32147, 7)" tag="1"/>
+		<item text="Node (32073, 32147, 6)" tag="0"/>
+		<item text="startFACC:" tag="255"/>
+		<item text="Stand (32065, 32155, 6)" tag="1"/>
+		<item text="Node (32052, 32138, 7)" tag="0"/>
+		<item text="Node (32051, 32130, 7)" tag="0"/>
+		<item text="Node (32040, 32123, 7)" tag="0"/>
+		<item text="Node (32036, 32114, 7)" tag="0"/>
+		<item text="Node (32031, 32113, 7)" tag="0"/>
+		<item text="Node (32033, 32124, 7)" tag="0"/>
+		<item text="Node (32033, 32137, 7)" tag="0"/>
+		<item text="Node (32023, 32141, 7)" tag="0"/>
+		<item text="Node (32023, 32150, 7)" tag="0"/>
+		<item text="Node (32035, 32154, 7)" tag="0"/>
+		<item text="Node (32054, 32157, 7)" tag="0"/>
+		<item text="Stand (32065, 32155, 7)" tag="1"/>
+		<item text="!cdataread" tag="254"><![CDATA[if Self.Level() >= 8 then Walker.Goto('goIodFACC') end]]></item>
+		<item text="healthCheck:" tag="255"/>
+		<item text="Stand (32067, 32138, 6)" tag="1"/>
+		<item text="Node (32060, 32123, 7)" tag="0"/>
+		<item text="Node (32055, 32114, 7)" tag="0"/>
+		<item text="Node (32053, 32109, 7)" tag="0"/>
+		<item text="Node (32059, 32094, 7)" tag="0"/>
+		<item text="!cdataread" tag="254"><![CDATA[if Self.Level() < 5 then Walker.Goto('skipSpiderCave') end]]></item>
+		<item text="Stand (32058, 32090, 7)" tag="1"/>
+		<item text="Node (32051, 32083, 8)" tag="0"/>
+		<item text="Stand (32043, 32076, 8)" tag="1"/>
+		<item text="Node (32037, 32068, 9)" tag="0"/>
+		<item text="Node (32034, 32053, 9)" tag="0"/>
+		<item text="Node (32021, 32051, 9)" tag="0"/>
+		<item text="deepercave-spaceholder:" tag="255"/>
+		<item text="Node (32036, 32055, 9)" tag="0"/>
+		<item text="Node (32038, 32073, 9)" tag="0"/>
+		<item text="Rope (32043, 32076, 9)" tag="3"/>
+		<item text="Node (32052, 32084, 8)" tag="0"/>
+		<item text="Ladder (32058, 32090, 8)" tag="2"/>
+		<item text="skipSpiderCave:" tag="255"/>
+		<item text="Node (32071, 32094, 7)" tag="0"/>
+		<item text="Node (32084, 32094, 7)" tag="0"/>
+		<item text="Node (32086, 32109, 7)" tag="0"/>
+		<item text="Node (32084, 32120, 7)" tag="0"/>
+		<item text="Stand (32067, 32138, 7)" tag="1"/>
+		<item text="checkExpFACC:" tag="255"/>
+		<item text="goIodFACC:" tag="255"/>
+		<item text="Node (32076, 32148, 6)" tag="0"/>
+		<item text="Stand (32089, 32147, 6)" tag="1"/>
+		<item text="Node (32086, 32159, 7)" tag="0"/>
+		<item text="Stand (32091, 32168, 7)" tag="1"/>
+		<item text="Stand (32091, 32178, 6)" tag="1"/>
+		<item text="Node (32091, 32191, 7)" tag="0"/>
+		<item text="Node (32094, 32201, 7)" tag="0"/>
+		<item text="-------------------------------:" tag="255"/>
+		<item text="Stairs:" tag="255"/>
+		<item text="Node (32097, 32195, 7)" tag="0"/>
+		<item text="Node (32098, 32192, 7)" tag="0"/>
+		<item text="Self.DropItems(Self.Position().x,Self.Position().y,Self.Position().z,'meat')" tag="254"/>
+		<item text="Stand (32098, 32190, 7)" tag="1"/>
+		<item text="Node (32099, 32194, 6)" tag="0"/>
+		<item text="botOff:" tag="255"/>
+		<item text="Stand (32104, 32191, 6)" tag="1"/>
+		<item text="talkOracle:" tag="255"/>
+		<item text="Stand (32077, 32027, 7)" tag="1"/>
+		<item text="skipTutorial:" tag="255"/>
+		<item text="goDeposit:" tag="255"/>
+		<item text="Stand (32095, 31991, 7)" tag="1"/>
+		<item text="depositGold:" tag="255"/>
+		<item text="knight:" tag="255"/>
+		<item text="Stand (32091, 31993, 7)" tag="1"/>
+		<item text="Stand (32088, 31991, 7)" tag="1"/>
+		<item text="GetVOC:" tag="255"/>
+		<item text="Stand (32086, 31991, 7)" tag="1"/>
+		<item text="Stand (32085, 31989, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(32085, 31988, 8) wait(1000)" tag="254"/>
+		<item text="Stand (32085, 31987, 8)" tag="1"/>
+		<item text="Stand (32076, 31979, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(32076, 31978, 8) wait(1000)" tag="254"/>
+		<item text="Stand (32078, 31977, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(32078, 31976, 8) wait(1000)" tag="254"/>
+		<item text="Stand (32079, 31977, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(32079, 31976, 8) wait(1000)" tag="254"/>
+		<item text="Stand (32085, 31978, 8)" tag="1"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(3372, "legs", 1) wait(1000,2000)]]></item>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(3359, "armor", 1) wait(1000,2000)]]></item>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3361) wait(1000,2000)" tag="254"/>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3559) wait(1000,2000)" tag="254"/>
+		<item text="Stand (32091, 31977, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(32091, 31976, 8) wait(1000)" tag="254"/>
+		<item text="Stand (32092, 31977, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(32092, 31976, 8) wait(1000)" tag="254"/>
+		<item text="Stand (32085, 31978, 8)" tag="1"/>
+		<item text="GetWPN:" tag="255"/>
+		<item text="Stand (32085, 31987, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(32085, 31988, 8) wait(1000)" tag="254"/>
+		<item text="Stand (32085, 31989, 8)" tag="1"/>
+		<item text="Stand (32086, 31991, 8)" tag="1"/>
+		<item text="!cdataread" tag="254"><![CDATA[gotoLabel("goMain")]]></item>
+		<item text="paladin:" tag="255"/>
+		<item text="Stand (32109, 31991, 7)" tag="1"/>
+		<item text="GetVOC:" tag="255"/>
+		<item text="Stand (32112, 31991, 7)" tag="1"/>
+		<item text="Stand (32112, 31989, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(32112, 31988,8) wait(1000)" tag="254"/>
+		<item text="Stand (32112, 31987, 8)" tag="1"/>
+		<item text="Stand (32109, 31979, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y-1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(3571, "armor", 1) wait(1000,2000)]]></item>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3361) wait(1000,2000)" tag="254"/>
+		<item text="Stand (32110, 31977, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y-1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(3277, "weapon", 5) wait(1000,2000)]]></item>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3273) wait(1000,2000)" tag="254"/>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3274) wait(1000,2000)" tag="254"/>
+		<item text="Stand (32111, 31978, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y-1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="Stand (32113, 31979, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y-1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(8095, "legs", 1) wait(1000,2000)]]></item>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3559) wait(1000,2000)" tag="254"/>
+		<item text="Stand (32112, 31977, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y-1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="Stand (32112, 31987, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y+1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="Stand (32112, 31989, 8)" tag="1"/>
+		<item text="Stand (32112, 31991, 8)" tag="1"/>
+		<item text="Stand (32105, 31993, 7)" tag="1"/>
+		<item text="!cdataread" tag="254"><![CDATA[gotoLabel("goMain")]]></item>
+		<item text="sorcerer:" tag="255"/>
+		<item text="Stand (32093, 32001, 7)" tag="1"/>
+		<item text="Stand (32089, 32003, 7)" tag="1"/>
+		<item text="GetVOC:" tag="255"/>
+		<item text="Stand (32085, 32000, 7)" tag="1"/>
+		<item text="Stand (32085, 32002, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y+1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="Stand (32085, 32004, 8)" tag="1"/>
+		<item text="Stand (32085, 32009, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y+1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(3074, "weapon", 1) wait(1000,2000)]]></item>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3273) wait(1000,2000)" tag="254"/>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3274) wait(1000,2000)" tag="254"/>
+		<item text="Stand (32084, 32010, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y+1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(7991, "armor", 1) wait(1000,2000)]]></item>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3361) wait(1000,2000)" tag="254"/>
+		<item text="Stand (32086, 32010, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y+1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(3059, "shield", 1) wait(1000,2000)]]></item>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3426) wait(1000,2000)" tag="254"/>
+		<item text="Stand (32085, 32013, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y-1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(7992, "head", 1) wait(1000,2000)]]></item>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3355) wait(1000,2000)" tag="254"/>
+		<item text="Stand (32085, 32004, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y-1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="Stand (32085, 32002, 8)" tag="1"/>
+		<item text="Stand (32085, 32000, 8)" tag="1"/>
+		<item text="Stand (32093, 32000, 7)" tag="1"/>
+		<item text="!cdataread" tag="254"><![CDATA[gotoLabel("goMain")]]></item>
+		<item text="druid:" tag="255"/>
+		<item text="Stand (32105, 32000, 7)" tag="1"/>
+		<item text="Stand (32108, 32003, 7)" tag="1"/>
+		<item text="GetVOC:" tag="255"/>
+		<item text="Stand (32112, 32001, 7)" tag="1"/>
+		<item text="Stand (32111, 32002, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y+1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="Stand (32111, 32004, 8)" tag="1"/>
+		<item text="Stand (32108, 32008, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y+1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(3066, "weapon", 1) wait(1000,2000)]]></item>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3273) wait(1000,2000)" tag="254"/>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3274) wait(1000,2000)" tag="254"/>
+		<item text="Stand (32108, 32012, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y+1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(7991, "armor", 1) wait(1000,2000)]]></item>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3361) wait(1000,2000)" tag="254"/>
+		<item text="Stand (32112, 32010, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y+1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(7992, "head", 1) wait(1000,2000)]]></item>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3355) wait(1000,2000)" tag="254"/>
+		<item text="Stand (32116, 32009, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y+1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[Self.Equip(3059, "shield", 1) wait(1000,2000)]]></item>
+		<item text="Self.DropItems(Self.Position().x, Self.Position().y, Self.Position().z, 3426) wait(1000,2000)" tag="254"/>
+		<item text="Stand (32111, 32004, 8)" tag="1"/>
+		<item text="Self.UseItemFromGround(Self.Position().x, Self.Position().y-1, Self.Position().z) wait(1000)" tag="254"/>
+		<item text="Stand (32111, 32002, 8)" tag="1"/>
+		<item text="Stand (32112, 32001, 8)" tag="1"/>
+		<item text="Stand (32105, 32000, 7)" tag="1"/>
+		<item text="!cdataread" tag="254"><![CDATA[gotoLabel("goMain")]]></item>
+		<item text="goMain:" tag="255"/>
+		<item text="Stand (32099, 31991, 7)" tag="1"/>
+		<item text="Stand (32099, 31985, 7)" tag="1"/>
+		<item text="Stand (32099, 31976, 6)" tag="1"/>
+		<item text="Stand (32098, 31964, 6)" tag="1"/>
+		<item text="Self.UseItemFromGround(32097, 31963, 6) wait(1000)" tag="254"/>
+		<item text="travelMain:" tag="255"/>
+	</control>
+</panel>
+<panel name="Walker Options">
+	<control name="ropeOption" value="0"/>
+	<control name="shovelOption" value="0"/>
+</panel>
+<panel name="Looter">
+	<control name="LootList" first="1" unlisted="0">
+		<item ID="3577" action="0"/>
+		<item ID="3031" action="1"/>
+		<item ID="5897" action="1"/>
+	</control>
+</panel>
+<panel name="Pathfinder">
+	<control name="walkOnFireEnable" value="0"/>
+	<control name="walkOnFurnitureEnable" value="1"/>
+	<control name="showDiagnoticEnable" value="0"/>
+	<control name="walkWithMapclicks" value="0"/>
+</panel>
+<panel name="Mount">
+</panel>
+<panel name="Special Areas">
+	<control name="AreaList">
+		<item title="New Area" consider="3" width="1" height="1" x="32106" y="32234" z="7"/>
+		<item title="New Area" consider="3" width="1" height="1" x="32106" y="32233" z="7"/>
+	</control>
+</panel>
+<panel name="Alarms">
+	<control name="disAlarm" value="0"/>
+	<control name="damAlarm" value="0"/>
+	<control name="lhpAlarm" value="1"/>
+	<control name="lhpAlarmPercent" value="30"/>
+	<control name="pmAlarm" value="0"/>
+	<control name="creatureAlarm" value="0"/>
+	<control name="attackAlarm" value="0"/>
+	<control name="playerAlarm" value="0"/>
+	<control name="playerAlarmLog" value="0"/>
+	<control name="stuckAlarm" value="1"/>
+	<control name="alarmPartyIgnore" value="0"/>
+</panel>
+<panel name="Scripter">
+	<control name="RunningScriptList">
+	</control>
+</panel>
+<panel name="Advertising">
+	<control name="watchSellingWords" value="item, item2"/>
+	<control name="watchSellingEnable" value="0"/>
+	<control name="watchBuyingWords" value="item, item2"/>
+	<control name="watchBuyingEnable" value="0"/>
+	<control name="blockLinksEnable" value="0"/>
+	<control name="reduceSpamEnable" value="0"/>
+</panel>

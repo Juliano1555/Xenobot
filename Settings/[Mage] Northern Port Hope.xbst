@@ -1,0 +1,286 @@
+<panel name="Self Healer">
+	<control name="SpellList">
+		<item spell="Exura Gran" mana="70" vcomp="0" vsign="1" vrandom="1" vvalue="70" enabled="1"/>
+		<item spell="Exura" mana="20" vcomp="0" vsign="1" vrandom="1" vvalue="90" enabled="1"/>
+	</control>
+	<control name="ItemList">
+		<item id="268" vcomp="0" vsign="3" vrandom="1" vvalue="50" enabled="1"/>
+	</control>
+</panel>
+<panel name="Support">
+	<control name="HiHealSpell" value="Exura"/>
+	<control name="HiHealHealth" value="90"/>
+	<control name="HiHealRange" value="5"/>
+	<control name="HiHealMana" value="20"/>
+	<control name="HiHealEnable" value="0"/>
+	<control name="LoHealSpell" value="Exura Gran"/>
+	<control name="LoHealHealth" value="55"/>
+	<control name="LoHealPerc" value="5"/>
+	<control name="LoHealMana" value="70"/>
+	<control name="LoHealEnable" value="0"/>
+	<control name="PotHealID" value="266"/>
+	<control name="PotHealHealth" value="50"/>
+	<control name="PotHealRange" value="5"/>
+	<control name="PotHealEnable" value="0"/>
+	<control name="ManaRestoreID" value="268"/>
+	<control name="ManaRestoreMana" value="50"/>
+	<control name="ManaRestoreEnable" value="0"/>
+</panel>
+<panel name="Frag Helper">
+	<control name="ShowSummonIden" value="0"/>
+	<control name="HoldTarg" value="0"/>
+	<control name="ComboEnable" value="0"/>
+</panel>
+<panel name="Tools">
+	<control name="LightEnable" value="0"/>
+	<control name="XRayEnable" value="0"/>
+	<control name="ShowLookIDs" value="1"/>
+	<control name="ShowManaBar" value="1"/>
+	<control name="ShowBPInfo" value="1"/>
+	<control name="EnableAntiIdle" value="0"/>
+	<control name="EnableEatFood" value="1"/>
+</panel>
+<panel name="Combo Options">
+	<control name="ComboSayLeader" value=""/>
+	<control name="ComboSayPhrase" value=""/>
+	<control name="ComboSayEnable" value="0"/>
+	<control name="ComboShotLeader" value=""/>
+	<control name="ComboShotType" value="0"/>
+	<control name="ComboShotEnable" value="0"/>
+	<control name="ComboExivaLeader" value=""/>
+	<control name="ComboExivaEnable" value="0"/>
+	<control name="ComboParaWatch" value="0"/>
+	<control name="ComboParaEnable" value="0"/>
+	<control name="ComboPartyWatch" value="0"/>
+	<control name="ComboPartyEnable" value="0"/>
+	<control name="ComboAttackSpell" value="Exevo Gran Mas Frigo"/>
+	<control name="ComboAttackSpellEnable" value="0"/>
+	<control name="ComboAttackRuneID" value="3155"/>
+	<control name="ComboAttackRuneEnable" value="0"/>
+	<control name="ComboFocusType" value="0"/>
+</panel>
+<panel name="HUD">
+	<control name="HUDItemList">
+		<item textColor="9" x="5" y="5" pos="4" checked="0"/>
+		<item textColor="8" x="5" y="5" pos="6" checked="0"/>
+		<item textColor="7" x="5" y="5" pos="0" checked="0"/>
+		<item textColor="6" x="5" y="5" pos="8" checked="0"/>
+		<item textColor="4" x="5" y="5" pos="10" checked="0"/>
+		<item textColor="13" x="5" y="5" pos="0" checked="0"/>
+		<item textColor="13" x="5" y="5" pos="2" checked="0"/>
+		<item textColor="0" x="0" y="0" pos="0" checked="0"/>
+	</control>
+	<control name="HPPercOnClick" value="0"/>
+	<control name="MPPercOnClick" value="0"/>
+	<control name="MPPercClickEnable" value="0"/>
+	<control name="MPPercClickEnable" value="0"/>
+</panel>
+<panel name="Recent Loot">
+	<control name="LootMonsterList">
+	</control>
+	<control name="DisplaySelectLoot" value="0"/>
+	<control name="HideNothingLoot" value="0"/>
+</panel>
+<panel name="Spell Timers">
+	<control name="ShowHasteTimer" value="1"/>
+	<control name="ShowManaTimer" value="1"/>
+	<control name="ShowInvisibleTimer" value="1"/>
+	<control name="ShowBuffTimers" value="1"/>
+</panel>
+<panel name="Kill Counters">
+	<control name="KillCounterBox">
+	</control>
+	<control name="DisplaySelectCounters" value="0"/>
+	<control name="DisplayCountRatios" value="0"/>
+</panel>
+<panel name="Battle Information">
+	<control name="ShowTakenDamage" value="1"/>
+	<control name="ShowDealtDamage" value="1"/>
+	<control name="ShowTarget" value="1"/>
+	<control name="ShowFollow" value="1"/>
+	<control name="ShowExiva" value="1"/>
+</panel>
+<panel name="Experience Information">
+	<control name="ShowHourlyExp" value="1"/>
+	<control name="ShowExpTogo" value="1"/>
+	<control name="ShowTimeLeft" value="1"/>
+</panel>
+<panel name="Condition Manager">
+	<control name="PoisonCureLimit" value="6"/>
+	<control name="PoisonCureMana" value="20"/>
+	<control name="PoisonCureEnable" value="0"/>
+	<control name="DeathCureLimit" value="10"/>
+	<control name="DeathCureMana" value="40"/>
+	<control name="DeathCureEnable" value="0"/>
+	<control name="PhysicalCureLimit" value="5"/>
+	<control name="PhysicalCureMana" value="30"/>
+	<control name="PhysicalCureEnable" value="0"/>
+	<control name="FireCureLimit" value="20"/>
+	<control name="FireCureMana" value="30"/>
+	<control name="FireCureEnable" value="0"/>
+	<control name="EnergyCureLimit" value="15"/>
+	<control name="EnergyCureMana" value="30"/>
+	<control name="EnergyCureEnable" value="0"/>
+	<control name="ParaCureEnable" value="0"/>
+	<control name="ParaCureMana" value="50"/>
+	<control name="ParaCureSpell" value="Utani Hur"/>
+	<control name="HasteCastMana" value="50"/>
+	<control name="HasteCastSpell" value="Utani Hur"/>
+	<control name="HasteCastEnable" value="0"/>
+	<control name="InvisibleCastMana" value="50"/>
+	<control name="InvisibleCastEnable" value="0"/>
+	<control name="ShieldCastMana" value="50"/>
+	<control name="ShieldCastEnable" value="0"/>
+	<control name="RecoveryCastEnable" value="0"/>
+	<control name="RecoveryCastType" value="0"/>
+	<control name="RecoveryCastMana" value="50"/>
+	<control name="RecoveryCheckPzEnable" value="1"/>
+</panel>
+<panel name="Equipment Manager">
+	<control name="AmmoRefillID" value="3450"/>
+	<control name="AmmoRefillEnable" value="0"/>
+	<control name="WeaponRefillID" value="7368"/>
+	<control name="WeaponRefillEnable" value="0"/>
+</panel>
+<panel name="Targeting">
+	<control name="TargetingList">
+		<item type="Carniphila" spl="exori tera" rne="3158" chs="6" atk="1" max="100" min="0" prio="5" prox="7" count="1"/>
+		<item type="Terror Bird" spl="exori flam" rne="3158" chs="6" atk="1" max="100" min="0" prio="4" prox="7" count="1"/>
+		<item type="Filth Toad" spl="exori flam" rne="3158" chs="6" atk="1" max="100" min="0" prio="3" prox="7" count="1"/>
+		<item type="Slime" spl="exori flam" rne="3158" chs="6" atk="1" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Crocodile" spl="exori flam" rne="3158" chs="6" atk="1" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Rat" spl="exori tera" rne="3158" chs="6" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Centipede" spl="exori tera" rne="3158" chs="6" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Swamp Troll" spl="exori tera" rne="3158" chs="6" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Bug" spl="exori tera" rne="3158" chs="6" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Cobra" spl="exori tera" rne="3158" chs="6" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Snake" spl="exori tera" rne="3158" chs="6" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Skunk" spl="exori tera" rne="3158" chs="6" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Cave Rat" spl="exori tera" rne="3158" chs="6" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Wasp" spl="exori tera" rne="3158" chs="6" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Spider" spl="exori tera" rne="3158" chs="6" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+		<item type="Poison Spider" spl="exori tera" rne="3158" chs="6" atk="0" max="100" min="0" prio="2" prox="7" count="1"/>
+	</control>
+</panel>
+<panel name="Walker">
+	<control name="WaypointList">
+		<item text="Start:" tag="255"/>
+		<item text="Resupply:" tag="255"/>
+		<item text="Node (32627, 32756, 7)" tag="0"/>
+		<item text="Node (32622, 32744, 7)" tag="0"/>
+		<item text="Deposit:" tag="255"/>
+		<item text="Deposit:" tag="255"/>
+		<item text="Stand (32625, 32749, 7)" tag="1"/>
+		<item text="Stand (32634, 32741, 6)" tag="1"/>
+		<item text="Bank:" tag="255"/>
+		<item text="resetbp:" tag="255"/>
+		<item text="Ladder (32626, 32742, 6)" tag="2"/>
+		<item text="Stand (32623, 32742, 5)" tag="1"/>
+		<item text="Potions:" tag="255"/>
+		<item text="Stand (32626, 32742, 5)" tag="1"/>
+		<item text="Stand (32625, 32749, 6)" tag="1"/>
+		<item text="CheckStuff:" tag="255"/>
+		<item text="Node (32627, 32756, 7)" tag="0"/>
+		<item text="Node (32616, 32744, 7)" tag="0"/>
+		<item text="ToHunt:" tag="255"/>
+		<item text="KeepHunting:" tag="255"/>
+		<item text="Node (32613, 32731, 7)" tag="0"/>
+		<item text="Node (32596, 32728, 7)" tag="0"/>
+		<item text="Node (32582, 32727, 7)" tag="0"/>
+		<item text="Node (32565, 32722, 7)" tag="0"/>
+		<item text="Node (32564, 32703, 7)" tag="0"/>
+		<item text="Node (32577, 32694, 7)" tag="0"/>
+		<item text="Node (32589, 32683, 7)" tag="0"/>
+		<item text="Node (32603, 32689, 7)" tag="0"/>
+		<item text="Node (32615, 32686, 7)" tag="0"/>
+		<item text="Node (32630, 32677, 7)" tag="0"/>
+		<item text="Node (32642, 32665, 7)" tag="0"/>
+		<item text="Node (32643, 32650, 7)" tag="0"/>
+		<item text="Node (32642, 32635, 7)" tag="0"/>
+		<item text="Node (32632, 32625, 7)" tag="0"/>
+		<item text="Node (32649, 32625, 7)" tag="0"/>
+		<item text="Node (32646, 32612, 7)" tag="0"/>
+		<item text="Node (32640, 32599, 7)" tag="0"/>
+		<item text="Node (32655, 32596, 7)" tag="0"/>
+		<item text="Node (32670, 32598, 7)" tag="0"/>
+		<item text="Node (32691, 32597, 7)" tag="0"/>
+		<item text="Node (32700, 32582, 7)" tag="0"/>
+		<item text="Node (32713, 32588, 7)" tag="0"/>
+		<item text="Node (32716, 32605, 7)" tag="0"/>
+		<item text="Node (32718, 32615, 7)" tag="0"/>
+		<item text="Node (32703, 32618, 7)" tag="0"/>
+		<item text="Node (32685, 32620, 7)" tag="0"/>
+		<item text="Node (32679, 32627, 7)" tag="0"/>
+		<item text="Node (32685, 32642, 7)" tag="0"/>
+		<item text="Node (32695, 32654, 7)" tag="0"/>
+		<item text="Node (32691, 32670, 7)" tag="0"/>
+		<item text="Node (32683, 32677, 7)" tag="0"/>
+		<item text="Node (32669, 32668, 7)" tag="0"/>
+		<item text="Node (32657, 32673, 7)" tag="0"/>
+		<item text="Node (32660, 32689, 7)" tag="0"/>
+		<item text="Node (32675, 32699, 7)" tag="0"/>
+		<item text="Node (32676, 32711, 7)" tag="0"/>
+		<item text="Node (32666, 32717, 7)" tag="0"/>
+		<item text="Node (32651, 32713, 7)" tag="0"/>
+		<item text="Node (32641, 32703, 7)" tag="0"/>
+		<item text="Node (32629, 32704, 7)" tag="0"/>
+		<item text="Node (32626, 32716, 7)" tag="0"/>
+		<item text="Checker:" tag="255"/>
+		<item text="Leave:" tag="255"/>
+		<item text="Node (32614, 32723, 7)" tag="0"/>
+		<item text="Node (32614, 32731, 7)" tag="0"/>
+		<item text="Node (32616, 32743, 7)" tag="0"/>
+	</control>
+</panel>
+<panel name="Looter">
+  <control name="LootList" first="1">
+    <item ID="3031" action="3"/> <!-- gold coin -->
+    <item ID="12311" action="2"/> <!-- carrot on a stick -->
+    <item ID="3556" action="2"/> <!-- crocodile boots -->
+    <item ID="3406" action="2"/> <!-- feather headdress -->
+    <item ID="12517" action="2"/> <!-- medicine pouch -->
+    <item ID="5902" action="1"/> <!-- honeycomb -->
+    <item ID="11514" action="1"/> <!-- colourful feather -->
+    <item ID="10273" action="1"/> <!-- terrorbird beak -->
+    <item ID="10300" action="1"/> <!-- carniphila seeds -->
+    <item ID="10274" action="1"/> <!-- skunk tail -->
+    <item ID="9640" action="1"/> <!-- poisonous slime -->
+    <item ID="10301" action="1"/> <!-- centipede leg -->
+    <item ID="9686" action="1"/> <!-- swamp grass -->
+    <item ID="10279" action="1"/> <!-- piece of crocodile leather -->
+    <item ID="3741" action="1"/> <!-- troll green -->
+    <item ID="3728" action="1"/> <!-- dark mushroom -->
+  </control>
+</panel>
+<panel name="Pathfinder">
+	<control name="walkOnFireEnable" value="1"/>
+	<control name="walkOnFurnitureEnable" value="1"/>
+	<control name="lastWPEvadeEnable" value="0"/>
+</panel>
+<panel name="Special Areas">
+	<control name="AreaList"/>
+</panel>
+<panel name="Scripter">
+	<control name="RunningScriptList"/>
+</panel>
+<panel name="Alarms">
+	<control name="disAlarm" value="0"/>
+	<control name="damAlarm" value="0"/>
+	<control name="lhpAlarm" value="0"/>
+	<control name="lhpAlarmPercent" value="50"/>
+	<control name="pmAlarm" value="0"/>
+	<control name="creatureAlarm" value="0"/>
+	<control name="attackAlarm" value="0"/>
+	<control name="playerAlarm" value="0"/>
+	<control name="playerAlarmLog" value="0"/>
+	<control name="stuckAlarm" value="0"/>
+	<control name="alarmPartyIgnore" value="0"/>
+</panel>
+<panel name="Advertising">
+	<control name="watchSellingWords" value="item, item2"/>
+	<control name="watchSellingEnable" value="0"/>
+	<control name="watchBuyingWords" value="item, item2"/>
+	<control name="watchBuyingEnable" value="0"/>
+	<control name="blockLinksEnable" value="0"/>
+	<control name="reduceSpamEnable" value="0"/>
+</panel>
