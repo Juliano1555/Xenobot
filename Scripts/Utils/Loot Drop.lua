@@ -15,7 +15,7 @@ Module.New('Loot droper', function(module)
 			if table.contains(items_id, item.id) then --match!
 				if item:GetWeight() > Self.Cap() then
 					Walker.Delay(1000)
-					corpse:MoveItemToGround(spot, pos.x pos.y, pos.z, item:ItemCount())
+					corpse:MoveItemToGround(spot, pos.x, pos.y, pos.z, item:ItemCount())
 				end
 			end
 		end
