@@ -8,12 +8,14 @@ end
 local containerName = 'red backpack'  -- Ex. "Purple Backpack", "Backpack of holding", "Bag" etc
 local minCap = 50
 
+local range = 3
+
 Module.New('lootFromGround', function(module)
 	if Self.Cap() >= minCap then
 		if (Self.TargetID() <= 0) then
 			local pos = Self.Position()
-			for y = -4, 4 do
-				for x = -4, 4 do
+			for y = -range, range do
+				for x = -range, range do
 					if table.find(items, Map.GetTopMoveItem(pos.x + x, pos.y + y, pos.z).id) then
 						Walker.Delay(1000)
 						Map.PickupItem(pos.x+x, pos.y+y, pos.z, Container.New(containerName):Index(), 0)  
